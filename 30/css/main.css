@@ -1,8 +1,35 @@
-img {
+.logo-small {
   width: 200px;
   height: 200px;
 }
 
+.logo-mid {
+  width: 400px;
+}
+
+.logo-big {
+  width: 600px;
+}
+
+header {
+  background: red;
+  display: flex;
+}
+header .logo {
+  width: 1000px;
+}
+header .logo:hover {
+  background: red;
+}
+
+footer {
+  background: red;
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  background: red;
 }
