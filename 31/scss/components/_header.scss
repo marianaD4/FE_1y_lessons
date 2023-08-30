@@ -1,0 +1,16 @@
+header {
+  background: red;
+  display: flex;
+
+  & .logo {
+    width: 1000px;
+
+    &:hover {
+      background: red;
+    }
+  }
+}
+
+// header .logo {
+//   width: 1000px;
+// }

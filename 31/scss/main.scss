@@ -1,0 +1,22 @@
+@import 'utils/colors';
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: $mainColor;
+}
+
+body {
+  background: red;
+}
+
+nav:hover {
+  color: $red1;
+}
+
