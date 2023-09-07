@@ -1,0 +1,112 @@
+.logo-small {
+  display: flex;
+}
+
+header {
+  background: red;
+  display: flex;
+}
+header .logo-icon {
+  background: yellow;
+}
+
+.navigation__list {
+  color: red;
+}
+.navigation__list:hover {
+  color: black;
+}
+.navigation-item {
+  color: blue;
+}
+.navigation-item__text--active {
+  text-decoration: underline;
+}
+.navigation-item__text--light {
+  text-decoration: underline;
+}
+
+.navigation__list {
+  color: red;
+}
+.navigation__list__text {
+  color: black;
+}
+
+.logo-small {
+  width: 200px;
+  height: 200px;
+  border: "1px solid red";
+}
+
+.logo-mid {
+  width: 400px;
+}
+
+.logo-big {
+  width: 600px;
+}
+
+.button, .button-error, .button-success {
+  display: inline-flex;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white;
+  background-color: gray;
+}
+
+.button-success {
+  background-color: green;
+}
+
+.button-error {
+  background-color: red;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  justify-content: center;
+  background: red;
+}
+
+.buttonWithMixinCommon {
+  display: inline-flex;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white;
+  background-color: blue;
+}
+
+.buttonWithMixinSuccess {
+  display: inline-flex;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white;
+  background-color: green;
+  width: 50px;
+  height: 100px/2;
+}
+
+.dog-icon {
+  background-image: url("../images/dog.png");
+}
+
+.cat-icon {
+  background-image: url("../images/cat.png");
+}
+
+.bird-icon {
+  background-image: url("../images/bird.png");
+}
+
+.turtle-icon {
+  background-image: url("../images/turtle.png");
+}

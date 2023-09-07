@@ -1,0 +1,14 @@
+.logo-small {
+  width: 200px;
+  height: 200px;
+  @extend %flex;
+  @include borderLine("1px solid red");
+}
+
+.logo-mid {
+   width: 400px;
+}
+
+.logo-big {
+   width: 600px;
+}

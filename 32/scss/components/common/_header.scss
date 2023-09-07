@@ -12,7 +12,12 @@ header {
   &__list {
     color: red;
 
-    &:hover {
+    // .navigation__list__item
+    &__item {
+
+    }
+
+    &:hover .box .link {
       color: black;
     }
   }
@@ -30,6 +35,12 @@ header {
     }
   }
 }
+
+.navigation__list:hover .box > .link {
+  // v1
+}
+
+
 
 
 .navigation {
@@ -51,3 +62,12 @@ header {
 // header .logo {
 //   width: 1000px;
 // }
+
+
+
+// 100 codes row
+
+
+.navigation__list {
+  //v2
+}

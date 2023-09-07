@@ -1,0 +1,30 @@
+header {
+  background: red;
+  display: flex;
+}
+header .logo-icon {
+  background: yellow;
+}
+
+.navigation__list {
+  color: red;
+}
+.navigation__list:hover {
+  color: black;
+}
+.navigation-item {
+  color: blue;
+}
+.navigation-item__text--active {
+  text-decoration: underline;
+}
+.navigation-item__text--light {
+  text-decoration: underline;
+}
+
+.navigation__list {
+  color: red;
+}
+.navigation__list__text {
+  color: black;
+}

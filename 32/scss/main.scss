@@ -1,0 +1,67 @@
+@import 'utils/colors';
+@import 'utils/mixins';
+@import 'utils/placeholders';
+
+@import 'components/common/header';
+@import 'components/common/logo';
+
+.button {
+ display: inline-flex;
+ border-radius: 3px;
+ font-size: 16px;
+ padding: 10px 20px;
+ color: white;
+ background-color: gray;
+}
+
+.button-success {
+ @extend .button;
+ background-color: green;
+}
+
+.button-error {
+ @extend .button;
+ background-color: red;
+}
+
+%flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  @extend %flex-container;
+  justify-content: center;
+  background: red;
+}
+
+@mixin btn($bgColor) {
+  display: inline-flex;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white;
+  background-color: $bgColor;
+}
+
+.buttonWithMixinCommon {
+  @include btn(blue);
+}
+
+.buttonWithMixinSuccess {
+  @include btn(green);
+  width: (100px / 2);
+  height: 100px / 2;
+}
+
+@each $animal in dog, cat, bird, turtle {
+ .#{$animal}-icon {
+   background-image: url('../images/#{$animal}.png');
+ }
+}
+
+
+
+
+
